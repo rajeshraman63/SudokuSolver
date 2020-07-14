@@ -19,8 +19,6 @@ public class SudokuSolver {
         return false;
     }
 
-/* Returns a boolean which indicates whether an assigned entry
-within the specified 3x3 box matches the given number. */
 
     public  boolean usedInBox(int[][] grid, int n, int boxStartRow, int boxStartCol, int num) {
 
